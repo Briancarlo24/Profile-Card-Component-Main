@@ -13,7 +13,12 @@ span {
 
 h2 {
     font-size: 1.2rem;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: -5px;
 }
 
 p {
@@ -27,7 +32,8 @@ p {
 }
 
 .user-info p {
-    font-size: 1rem;
+    font-size: 0.85rem;
+    margin-bottom: 0;
 }
 .guide {
     border: 1px solid magenta;
@@ -119,6 +125,10 @@ p {
 
 .col {
     align-self: center;
-    padding-bottom: 2%;
+}
+
+.col p {
+    font-size: 0.5rem;    
+    letter-spacing: 3px;
 }
 
