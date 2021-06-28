@@ -96,18 +96,6 @@ p {
     margin-bottom: -20px;
 }
 
-.profile-photo2 {
-    border-radius: 50%;
-    border: 8px solid white;
-    display: none;
-    min-height: 100px;
-    min-width: 100px;
-    max-height: 140px;
-    max-width: 140px;
-    margin-top: -80px;
-    margin-bottom: -20px;
-}
-
 #card .user-info {
     border-bottom: 1px solid hsl(0, 0%, 59%, 20%);
     width: 100%;
