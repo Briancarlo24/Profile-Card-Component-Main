@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: -10px;
+}
+
+p {
+    color: hsl(0, 0%, 59%);
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.user-info span {
+    font-size: 1.2rem;
+}
+
+.user-info p {
+    font-size: 1rem;
+}
+.guide {
+    border: 1px solid magenta;
+}
+
+#main {
+    background-color:hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#main .bg-pattern-top {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    margin-left: -60px;
+    max-width: initial;
+}
+
+#main .bg-pattern-bottom {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-right: -60px;
+    max-width: initial;
+}
+
+#card {
+    align-self: center;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 450px;
+    min-width: 300px;
+    overflow: hidden;
+    position: relative;
+    width: 420px;
+    z-index: 99;
+}
+
+#card img {
+    width: 420px;
+    height: 35.5%;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    border: 8px solid white;
+    display: block;
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 140px;
+    max-width: 140px;
+    margin-top: -80px;
+    margin-bottom: -20px;
+}
+
+.profile-photo2 {
+    border-radius: 50%;
+    border: 8px solid white;
+    display: none;
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 140px;
+    max-width: 140px;
+    margin-top: -80px;
+    margin-bottom: -20px;
+}
+
+#card .user-info {
+    border-bottom: 1px solid hsl(0, 0%, 59%, 20%);
+    width: 100%;
+}
+
+#card .even-columns {
+    display: flex;
+    padding: 0 25px;
+    width: 100%;
+}
+
+.even-columns > * {
+    flex: 1 1 100%;
+}
+
+.col {
+    align-self: center;
+    padding-bottom: 2%;
+}
+
