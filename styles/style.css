@@ -3,6 +3,7 @@
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
+    margin: 0;
     text-align: center;
 }
 
@@ -50,18 +51,18 @@ p {
 
 #main .bg-pattern-top {
     position: absolute;
-    bottom: 50%;
-    left: 0;
-    margin-left: -60px;
+    bottom: 60%;
+    right: 45%;
     max-width: initial;
+    transform: translateX(-5%);
 }
 
 #main .bg-pattern-bottom {
     position: absolute;
-    right: 0;
-    top: 50%;
-    margin-right: -60px;
+    left: 45%;
+    top: 60%;
     max-width: initial;
+    transform: translateX(5%);
 }
 
 #card {
