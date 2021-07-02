@@ -14,12 +14,12 @@ span {
 
 h2 {
     font-size: 1.2rem;
-    margin-bottom: -5px;
+    margin-bottom: 10px;
 }
 
 h3 {
     font-size: 1.2rem;
-    margin-bottom: -5px;
+    margin-bottom: 0;
 }
 
 p {
@@ -45,6 +45,7 @@ p {
     display: flex;
     justify-content: center;
     height: 100vh;
+    padding: 0 25px;
     position: relative;
     overflow: hidden;
 }
@@ -121,3 +122,20 @@ p {
     letter-spacing: 3px;
 }
 
+@media screen and (max-width: 375px) {
+    #main .bg-pattern-top {
+        position: absolute;
+        bottom: 50%;
+        right: 20%;
+        max-width: initial;
+        transform: translateX(-5%);
+    }
+    
+    #main .bg-pattern-bottom {
+        left: 20%;
+        top: 50%;
+        max-width: initial;
+        transform: translateX(5%);
+    }
+    
+}
